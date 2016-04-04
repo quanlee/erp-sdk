@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle erp-sdk'
+      'command': 'erp-sdk:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'erp-sdk'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'erp-sdk:toggle'
+        }
+      ]
+    ]
+  }
+]

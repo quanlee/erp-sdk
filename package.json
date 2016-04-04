@@ -1,0 +1,18 @@
+{
+  "name": "erp-sdk",
+  "main": "./lib/erp-sdk",
+  "version": "0.0.0",
+  "description": "ATOM add on that automates the generation of sql, ruby class and javascript files",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "erp-sdk:toggle"
+  },
+  "repository": "https://github.com/atom/erp-sdk",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
